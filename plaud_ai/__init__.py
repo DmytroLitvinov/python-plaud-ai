@@ -2,7 +2,7 @@
 
 __author__ = 'Dmytro Litvinov'
 __email__ = 'me@dmytrolitvinov.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from .client import PlaudAIAPIClient
-from .webhook import verify_signature
+from .webhook import is_valid_signature
